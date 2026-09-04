@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#fbfaf6"/>
+  <rect x="0" y="470" width="1200" height="34" fill="#2f5233" opacity="0.22" transform="skewY(-2)"/>
+  <rect x="0" y="530" width="1200" height="34" fill="#2f5233" opacity="0.14" transform="skewY(-2)"/>
+  <circle cx="1000" cy="150" r="90" fill="#c7801a" opacity="0.85"/>
+  <text x="90" y="300" font-family="Georgia, serif" font-size="88" fill="#1f3a24" font-weight="600">FarmFlow</text>
+  <text x="90" y="360" font-family="Arial, sans-serif" font-size="30" fill="#6b6656">Simple farm management software</text>
+</svg>

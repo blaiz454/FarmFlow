@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <SEO
         title={null}
-        description="FarmFlow is a lightweight farm management application for tracking crops, livestock, and daily farm tasks in one place — no spreadsheets, no clutter."
+        description="FarmFlow is simple farm management software for keeping crops, livestock, and daily farm tasks organized in one place — without spreadsheets or clutter."
         path="/"
         jsonLd={[
           {
@@ -30,27 +30,46 @@ export default function Home() {
             applicationCategory: "BusinessApplication",
             operatingSystem: "Web",
             description: seoConfig.defaultDescription,
-            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "USD",
+            },
           },
         ]}
       />
 
       <section className="hero container">
         <div className="hero-copy">
-          <p className="eyebrow">Farm management, simplified</p>
-          <h1>Run your crops, livestock, and farm tasks from one screen</h1>
+          <p className="eyebrow">Simple farm management software</p>
+
+          <h1>
+            Manage your crops, livestock, and farm tasks in one place
+          </h1>
+
           <p className="lede">
-            FarmFlow replaces the mix of notebooks, spreadsheets, and sticky
-            notes that most small farms rely on with a single, focused place
-            to track what's planted, what's grazing, and what still needs
-            doing today.
+            FarmFlow is a simple farm management app for keeping your farm
+            records organized. Track what's planted, manage livestock
+            information, and stay on top of daily farm tasks without relying
+            on scattered notebooks, spreadsheets, or sticky notes.
           </p>
+
           <div className="hero-ctas">
-            <Link to="/login" className="btn btn-primary">Get started free</Link>
-            <Link to="/features" className="btn btn-secondary">See how it works</Link>
+            <Link to="/login" className="btn btn-primary">
+              Get started free
+            </Link>
+
+            <Link to="/features" className="btn btn-secondary">
+              See how it works
+            </Link>
           </div>
         </div>
-        <div className="hero-rows" role="img" aria-label="Illustration of planted crop rows under the sun">
+
+        <div
+          className="hero-rows"
+          role="img"
+          aria-label="Illustration of planted crop rows under the sun"
+        >
           <div className="sun" />
           <div className="row" style={{ top: "20%" }} />
           <div className="row" style={{ top: "38%" }} />
@@ -59,91 +78,167 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section-alt" aria-labelledby="feature-overview-heading">
+      <section
+        className="section section-alt"
+        aria-labelledby="feature-overview-heading"
+      >
         <div className="container">
           <div className="section-head">
-            <h2 id="feature-overview-heading">Three parts of farm work, one system</h2>
+            <h2 id="feature-overview-heading">
+              Farm management in one simple system
+            </h2>
+
             <p>
-              Most farm management tools either try to do everything or do
-              almost nothing. FarmFlow focuses on the three records that
-              change the most day to day.
+              FarmFlow focuses on the everyday records that matter most.
+              Manage crops, livestock, and farm tasks from one organized
+              farm management system instead of keeping information across
+              different notebooks and files.
             </p>
           </div>
+
           <div className="grid-3">
             <div className="feature-item">
               <span className="mark">1</span>
-              <h3>Crops</h3>
+
+              <h3>Crop management</h3>
+
               <p>
                 Log what's planted where, track planting and harvest dates,
-                and see status at a glance without digging through old
-                notes. Read more on the <Link to="/crop-management">crop management page</Link>.
+                and see crop status at a glance. Keep your crop records
+                organized without digging through old notes. Read more on
+                the <Link to="/crop-management">crop management page</Link>.
               </p>
             </div>
+
             <div className="feature-item">
               <span className="mark">2</span>
-              <h3>Livestock</h3>
+
+              <h3>Livestock management</h3>
+
               <p>
-                Keep a record for every animal — species, breed, age, and
-                health status — so herd or flock information isn't
-                scattered across paper cards. See the <Link to="/livestock-management">livestock management page</Link>.
+                Keep a record for every animal, including species, breed,
+                age, and health status. FarmFlow keeps herd and flock
+                information together so important livestock records don't
+                get scattered across paper cards. See the{" "}
+                <Link to="/livestock-management">
+                  livestock management page
+                </Link>
+                .
               </p>
             </div>
+
             <div className="feature-item">
               <span className="mark">3</span>
-              <h3>Farm tasks</h3>
+
+              <h3>Farm task management</h3>
+
               <p>
-                Turn "things I need to remember" into a real task list with
-                due dates and completion status. Details on the <Link to="/farm-tasks">farm tasks page</Link>.
+                Turn the things you need to remember into an organized farm
+                task list with due dates and completion status. Keep track
+                of daily farm work and know what still needs to be done.
+                Details on the <Link to="/farm-tasks">farm tasks page</Link>.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section" aria-labelledby="how-it-works-heading">
+      <section
+        className="section"
+        aria-labelledby="how-it-works-heading"
+      >
         <div className="container">
           <div className="section-head">
-            <h2 id="how-it-works-heading">How it works</h2>
-            <p>Three steps from signing up to having your farm's records in one place.</p>
+            <h2 id="how-it-works-heading">
+              How FarmFlow works
+            </h2>
+
+            <p>
+              Start organizing your farm records in three simple steps.
+            </p>
           </div>
+
           <div className="how-steps">
             <div className="how-step">
               <div className="num">01</div>
+
               <h3>Create an account</h3>
-              <p>Sign up with your email — no farm size minimums or long onboarding forms.</p>
+
+              <p>
+                Sign up with your email and start using FarmFlow without
+                complicated onboarding or unnecessary setup.
+              </p>
             </div>
+
             <div className="how-step">
               <div className="num">02</div>
-              <h3>Add your records</h3>
-              <p>Enter your current crops, livestock, and any open tasks. It takes minutes, not hours.</p>
+
+              <h3>Add your farm records</h3>
+
+              <p>
+                Add your current crops, livestock, and open farm tasks.
+                Getting your essential records organized takes minutes,
+                not hours.
+              </p>
             </div>
+
             <div className="how-step">
               <div className="num">03</div>
-              <h3>Keep it updated</h3>
-              <p>Update statuses as work happens, so your dashboard always reflects the real state of the farm.</p>
+
+              <h3>Keep your records updated</h3>
+
+              <p>
+                Update crop, livestock, and task information as work
+                happens so your farm management dashboard reflects the
+                current state of your operation.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section section-alt" aria-labelledby="benefits-heading">
+      <section
+        className="section section-alt"
+        aria-labelledby="benefits-heading"
+      >
         <div className="container grid-2">
           <div>
-            <h2 id="benefits-heading">Why farms use FarmFlow instead of a spreadsheet</h2>
+            <h2 id="benefits-heading">
+              A simpler way to manage farm records
+            </h2>
+
             <ul className="benefits-list">
-              <li>Purpose-built fields for crops, livestock, and tasks — no formulas to maintain.</li>
-              <li>One dashboard instead of several disconnected files.</li>
-              <li>Records are private to your account and accessible from any device with a browser.</li>
-              <li>Nothing to install — it runs as a web application.</li>
+              <li>
+                Purpose-built records for crops, livestock, and farm tasks
+                without formulas to maintain.
+              </li>
+
+              <li>
+                One farm management dashboard instead of several
+                disconnected spreadsheets and files.
+              </li>
+
+              <li>
+                Keep your farm records private to your account and access
+                them from any device with a browser.
+              </li>
+
+              <li>
+                Nothing to install — FarmFlow runs as a web application.
+              </li>
             </ul>
           </div>
+
           <div className="card">
-            <h3 className="mt-0">Built for small and mid-size operations</h3>
+            <h3 className="mt-0">
+              Built for small and mid-size farms
+            </h3>
+
             <p>
-              FarmFlow is intentionally small in scope. It doesn't try to
-              replace accounting software, equipment telemetry, or
-              government compliance systems — it focuses on the daily
-              record-keeping that every farm needs regardless of size.
+              FarmFlow is intentionally focused on practical farm
+              record-keeping. It helps organize crops, livestock, and daily
+              farm tasks without trying to replace accounting software,
+              equipment telemetry, or government compliance systems.
             </p>
           </div>
         </div>
@@ -153,10 +248,19 @@ export default function Home() {
         <div className="container">
           <div className="cta-band">
             <div>
-              <h2>Ready to see your farm in one place?</h2>
-              <p>Create a free account and add your first crop, animal, or task in minutes.</p>
+              <h2>
+                Ready to manage your farm in one place?
+              </h2>
+
+              <p>
+                Create a free account and add your first crop, animal, or
+                farm task in minutes.
+              </p>
             </div>
-            <Link to="/login" className="btn btn-primary">Get started free</Link>
+
+            <Link to="/login" className="btn btn-primary">
+              Get started free
+            </Link>
           </div>
         </div>
       </section>

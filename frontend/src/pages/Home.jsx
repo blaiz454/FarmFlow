@@ -39,6 +39,7 @@ export default function Home() {
         ]}
       />
 
+      {/* HERO */}
       <section className="hero container">
         <div className="hero-copy">
           <p className="eyebrow">Simple farm management software</p>
@@ -78,6 +79,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* WHAT IS FARM MANAGEMENT SOFTWARE */}
+      <section
+        className="section"
+        aria-labelledby="what-is-heading"
+      >
+        <div className="container">
+          <div className="section-head">
+            <h2 id="what-is-heading">
+              What is farm management software?
+            </h2>
+
+            <p>
+              Farm management software helps farmers organize the information
+              and everyday work involved in running a farm. Instead of
+              keeping crop records, livestock information, and task lists in
+              separate notebooks or spreadsheets, a farm management system
+              brings those records together in one place.
+            </p>
+
+            <p>
+              FarmFlow is designed around that simple idea. It gives small
+              and mid-size farms a focused way to keep track of what is
+              growing, what animals are on the farm, and what work needs to
+              be completed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CORE FEATURES */}
       <section
         className="section section-alt"
         aria-labelledby="feature-overview-heading"
@@ -143,8 +174,59 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FARM RECORD KEEPING */}
       <section
         className="section"
+        aria-labelledby="record-keeping-heading"
+      >
+        <div className="container">
+          <div className="section-head">
+            <h2 id="record-keeping-heading">
+              Keep your farm records organized
+            </h2>
+
+            <p>
+              Good farm record keeping makes it easier to understand what is
+              happening across your operation. FarmFlow gives you one place
+              to record crop information, livestock details, and outstanding
+              farm work.
+            </p>
+          </div>
+
+          <div className="grid-3">
+            <div className="feature-item">
+              <h3>Know what's planted</h3>
+
+              <p>
+                Keep crop information and planting details organized so you
+                can quickly see the current status of your crops.
+              </p>
+            </div>
+
+            <div className="feature-item">
+              <h3>Know your livestock</h3>
+
+              <p>
+                Keep important animal information together instead of
+                relying on separate paper records for different animals.
+              </p>
+            </div>
+
+            <div className="feature-item">
+              <h3>Know what's next</h3>
+
+              <p>
+                Use farm tasks and due dates to keep track of work that
+                needs attention instead of relying on memory alone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* HOW IT WORKS */}
+      <section
+        className="section section-alt"
         aria-labelledby="how-it-works-heading"
       >
         <div className="container">
@@ -197,6 +279,48 @@ export default function Home() {
         </div>
       </section>
 
+      {/* WHO IT IS FOR */}
+      <section
+        className="section"
+        aria-labelledby="who-its-for-heading"
+      >
+        <div className="container grid-2">
+          <div>
+            <h2 id="who-its-for-heading">
+              Built for small and mid-size farms
+            </h2>
+
+            <p>
+              FarmFlow is designed for farmers and farm operators who want a
+              straightforward way to organize everyday farm information
+              without adopting a complicated agricultural management
+              platform.
+            </p>
+
+            <p>
+              Whether you manage crops, livestock, or a combination of both,
+              FarmFlow keeps the essential records and daily tasks together
+              in one web application.
+            </p>
+          </div>
+
+          <div className="card">
+            <h3 className="mt-0">
+              Focused instead of overloaded
+            </h3>
+
+            <p>
+              FarmFlow intentionally focuses on practical farm
+              record-keeping. It doesn't try to replace accounting
+              software, equipment telemetry, or government compliance
+              systems. It focuses on the everyday information that farmers
+              need to keep organized.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* BENEFITS */}
       <section
         className="section section-alt"
         aria-labelledby="benefits-heading"
@@ -231,19 +355,19 @@ export default function Home() {
 
           <div className="card">
             <h3 className="mt-0">
-              Built for small and mid-size farms
+              Organize your daily farm work
             </h3>
 
             <p>
-              FarmFlow is intentionally focused on practical farm
-              record-keeping. It helps organize crops, livestock, and daily
-              farm tasks without trying to replace accounting software,
-              equipment telemetry, or government compliance systems.
+              Keep your crop records, livestock information, and farm tasks
+              together so you spend less time searching through notes and
+              more time managing the work that matters.
             </p>
           </div>
         </div>
       </section>
 
+      {/* CTA */}
       <section className="section">
         <div className="container">
           <div className="cta-band">

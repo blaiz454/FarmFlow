@@ -1,15 +1,27 @@
 # FarmFlow
 
-FarmFlow is a small, production-quality full-stack web application for
-tracking farm crops, livestock, and daily tasks. It exists primarily as a
-**hands-on learning project** for full-stack development, deployment, and
-— above all — technical and on-page SEO for a React single-page
-application. See [`SEO.md`](./SEO.md) for the dedicated SEO deep-dive.
+**FarmFlow is simple farm management software for keeping crops, livestock, and daily farm tasks organized in one place.**
 
-This is deliberately **not** a large commercial farm platform. It's small
-enough to read end to end in an afternoon while still being wired up the
-way a real production app would be: real auth, a real database, real
-error handling, and real SEO mechanics.
+🌐 **Live application:** https://practical-respect-production-7636.up.railway.app/
+
+FarmFlow is a full-stack web application designed for small and mid-size farms that need a straightforward way to organize farm records without relying on scattered notebooks or spreadsheets.
+
+With FarmFlow, users can:
+
+- 🌱 Track crops and planting information
+- 🐄 Keep livestock records organized
+- 📋 Manage daily farm tasks and due dates
+- 📊 Keep essential farm information together in one dashboard
+
+The project is also a hands-on demonstration of building, deploying, and optimizing a production-style React and Flask application, including technical and on-page SEO.
+
+> **Project status:** FarmFlow is an active personal learning and portfolio project.
+
+See [`SEO.md`](SEO.md) for the technical SEO architecture and lessons behind the project.
+
+---
+
+## 1. Architecture overview
 
 ---
 
